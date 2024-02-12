@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hicrep-wistan"
+version = "0.1.0"
+description = ""
+authors = ["Ben Skubi <bskubi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.scripts]
+hicrep-wistan = "hicrep_wistan.__main__:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
